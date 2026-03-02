@@ -1670,6 +1670,12 @@ body {
     }
 }
 
+@container body style(--custom-dms-icon: hide) {
+    .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 > svg {
+        display: none;
+    }
+}
+
 @property --custom-dms-background {
     syntax: 'off | image | color';
     inherits: false;
@@ -2053,16 +2059,4 @@ body {
     .winButtons_c38106 {
         gap: 0;
     }
-}
-
-/* Force show Direct Messages icon */
-[aria-label="Direct Messages"],
-[aria-label="Direct Messages"] * ,
-.dm, .dm-icon, .private-channels, .privateChannels {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  width: auto !important;
-  height: auto !important;
-  pointer-events: auto !important;
 }
