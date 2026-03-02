@@ -2054,3 +2054,15 @@ body {
         gap: 0;
     }
 }
+
+/* Force show Direct Messages icon */
+[aria-label="Direct Messages"],
+[aria-label="Direct Messages"] * ,
+.dm, .dm-icon, .private-channels, .privateChannels {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: auto !important;
+  height: auto !important;
+  pointer-events: auto !important;
+}
