@@ -1670,12 +1670,6 @@ body {
     }
 }
 
-/*@container body style(--custom-dms-icon: hide) {
-    .wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8 > svg {
-        display: none;
-    }
-}*/
-
 @property --custom-dms-background {
     syntax: 'off | image | color';
     inherits: false;
